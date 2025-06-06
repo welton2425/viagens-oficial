@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+/*inicio do cabeçalho*/
+header {
+    padding: 20px;
+   background-color: rgba(58, 16, 16, 0.781);
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+
+}
+
+header div img {
+    width: 80px;
+
+}
+
+header h1 {
+    color: rgb(248, 240, 240);
+
+    font-size: 50px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.listra-menu ul {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+}
+
+.listra-menu ul li {
+
+    list-style: none;
+
+
+}
+
+
+.listra-menu ul li a:hover {
+
+    transition: 0, 10s;
+    color: black;
+
+}
+
+.listra-menu ul li a {
+    text-decoration: none;
+
+    color: rgb(250, 249, 249);
+
+    font-size: 20px;
+
+}
+
+
+.arthur div {
+    padding: 220px;
+    background-image: url(img/download.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    
+
+
+}
+
+.arthur button {
+    width: 12rem;
+    height: 30px;
+    background-color: rgba(68, 38, 38, 0.979);
+    color: rgb(235, 244, 245);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 25px;
+    
+
+
+}
+
+.arthur button:hover {
+    background-color: rgb(206, 224, 228);
+    transition: 0.8s;
+    color: black;
+}
