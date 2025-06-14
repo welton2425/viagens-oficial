@@ -7,7 +7,9 @@
     <title>pizzaria oliveira | site oficial</title>
     <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/1649955a78.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
 </head>
 
 <body>
@@ -57,29 +59,95 @@
 
     <main>
 
-        <section id="home">
-            <div class="content">
-                <h2>bem vindo á Viagems Mais Desejadas</h2>
-                <p>Viajar é renovar a alma. É encontrar novas ideias, novos parâmetros e novos ideais através de novas estradas.
-                </p>
-                <a href="#" class="btn">CADASTRE-SE</a>
+        <section class="swiper">
+
+            <div class="carousel-text">
+    
+                <h1>Bem Vindo ao Nosso Site</h1>
+                <p>Explore nosso conteudo</p>
+                <button>cardapio</button>
+            </div>
+    
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide caixa-01"></div>
+                <div class="swiper-slide caixa-02"></div>
+                <div class="swiper-slide caixa-03"></div>
+    
+            </div>
+        </section>
+
+
+
+        
+
+       
+
+
+        <section class="menu" id="menu">
+            <h2 class="heading">Nossas <span>Viagens</span></h2>
+
+
+            <!-- caixa para guarda as imagens das pizzas -->
+            <div class="container">
+                <div class="box">
+                    <img src="img/1-Rio-de-Janeiro.webp" alt="rio de janeiro">
+                    <h3>Ida e Volta (Rio de Janeiro)</h3>
+                    <div class="price"> 349.99$ <span>819.00$</span></div>
+                    <a href="#" class="btn">Ofertas Imperdiveis</a>
+                </div>
+
+                <div class="box">
+                    <img src="img/istockphoto-460550531-612x612.jpg" alt="dubai">
+                    <h3>Ida e Volta (Dubai) </h3>
+                    <div class="price"> 4.549.99$ <span>7.249.99$</span></div>
+                    <a href="#" class="btn">Ofertas Imperdiveis</a>
+                </div>
+
+                <div class="box">
+                    <img src="img/natal-campos-do-jordao-0.jpg" alt="campo de jordão">
+                    <h3>Chalés em  (Campo de jordão) </h3>
+                    <div class="price"> 449.00$ <span>600.00$</span></div>
+                    <a href="#" class="btn">Ofertas Imperdiveis</a>
+                </div>
+
+                <div class="box">
+                    <img src="img/painel-las-vegas-2-5x1-5m-painel-3d_27022.jpg" alt="lasvegas">
+                    <h3>ida e volta (Lasvegas USA) </h3>
+                    <div class="price"> 2.257.99$ <span>3.500.00$</span></div>
+                    <a href="#" class="btn">Ofertas Imperdiveis</a>
+                </div>
+
+                <div class="box">
+                    <img src="img/Personagens-DisneyRoupa-50-anos.png" alt="disney">
+                    <h3>ida e volta (Disney USA) </h3>
+                    <div class="price">2.849.00$ <span>3.250.00$</span></div>
+                    <a href="#" class="btn">Ofertas Imperdiveis</a>
+                </div>
+
+                <div class="box">
+                    <img src="img/Tur-Programi-I-Paris-te-Bir-Hafta-Pariste.Net-12.jpg" alt="paris">
+                    <h3>ida e volta (Paris França)</h3>
+                    <div class="price"> 1.845.00$ <span>2.450.00$</span></div>
+                    <a href="#" class="btn">Ofertas Imperdiveis</a>
+                </div>
 
             </div>
 
         </section>
+
 
         <section id="about" class="about">
             <h1 class="heading">Sobre <span>Nós</span></h1>
             <!--  div adicionada-->
             <div class="row">
                 <div class="imagem">
-                    <img src="imagem/images/sobre.jpg" alt="imagem pizzaria">
+                    <img src="img/lembrancinhas-viagem.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>O que torna a pizzariahash única</h3>
-                    <p>Descubra o sabor autentico das nossas Pizzas
-                        artezanais, preparadas com ingredientes frescos
-                        e de alta qualidade
+                    <h3>Boas viagens </h3>
+                    <p>
+                        Eu sei que você se preparou por muito tempo para esta viagem. Que este sonho que está se realizando hoje seja ainda mais especial do que o que você tinha em mente. Estou muito feliz pela sua conquista, amiga. Boa viagem! 
                     </p>
                     <a href="#" class="btn"> saiba mais</a>
                 </div>
@@ -88,242 +156,11 @@
         </section>
 
 
-        <section class="menu" id="menu">
-            <h2 class="heading">Nosso <span>Menu</span></h2>
 
 
-            <!-- caixa para guarda as imagens das pizzas -->
-            <div class="container">
-                <div class="box">
-                    <img src="imagem/images/pizza_item_1.jpg" alt="imagem1">
-                    <h3>Explosão de Pepperoni</h3>
-                    <div class="price"> 55.99$ <span>60.98$</span></div>
-                    <a href="#" class="btn">Adicionar ao carrinho</a>
-                </div>
+       
 
-                <div class="box">
-                    <img src="imagem/images/pizza_item_2.jpg" alt="imagem2">
-                    <h3>Aventura Gevetais </h3>
-                    <div class="price"> 45.99$ <span>60.98$</span></div>
-                    <a href="#" class="btn">Adicionar ao carrinho</a>
-                </div>
-
-                <div class="box">
-                    <img src="imagem/images/pizza_item_3.jpg" alt="imagem3">
-                    <h3>Emediterranio Delicia </h3>
-                    <div class="price"> 75.99$ <span>89.99$</span></div>
-                    <a href="#" class="btn">Adicionar ao carrinho</a>
-                </div>
-
-                <div class="box">
-                    <img src="imagem/images/pizza_item_4.jpg" alt="imagem4">
-                    <h3>Pomodoro Do campo </h3>
-                    <div class="price"> 55.99$ <span>60.99$</span></div>
-                    <a href="#" class="btn">Adicionar ao carrinho</a>
-                </div>
-
-                <div class="box">
-                    <img src="imagem/images/pizza_item_5.jpg" alt="imagem5">
-                    <h3>Lusitana Colorida </h3>
-                    <div class="price">55.99$ <span>60.99$</span></div>
-                    <a href="#" class="btn">Adicionar ao carrinho</a>
-                </div>
-
-                <div class="box">
-                    <img src="imagem/images/pizza_item_6.jpg" alt="imagem6">
-                    <h3>Saborosa Lava</h3>
-                    <div class="price"> 85.99$ <span>99.99$</span></div>
-                    <a href="#" class="btn">Adicionar ao carrinho</a>
-                </div>
-
-            </div>
-
-        </section>
-
-        <section id="products" class="products">
-            <h2 class="heading">Combos e <span>Promoções</span></h2>
-            <!-- div pai -->
-            <div class="box-container">
-
-                <!-- caixa 01 -->
-                <div class="box">
-
-                    <!-- div icons -->
-                    <div class="icons">
-                        <a href="#menu">
-                            <i class="fa-solid fa-car"></i>
-                        </a>
-
-                        <a href="#menu">
-                            <i class="fa-solid fa-heart"></i>
-                        </a>
-                        <a href="#menu">
-                            <i class="fa-solid fa-eye"></i>
-                        </a>
-
-                    </div>
-
-                    <div class="image">
-                        <img src="imagem/images/promo_1.jpg" alt="pizza com coca-cola">
-                    </div>
-
-                    <div class="content">
-                        <h3>Pizza+Refrigerante 2L</h3>
-
-
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="price">60.00$ <span>a partir</span></div>
-                    </div>
-                </div>
-
-                <!-- caixa 2 -->
-                <div class="box">
-
-                    <!-- div icons -->
-                    <div class="icons">
-                        <a href="#menu">
-                            <i class="fa-solid fa-car"></i>
-                        </a>
-
-                        <a href="#menu">
-                            <i class="fa-solid fa-heart"></i>
-                        </a>
-                        <a href="#menu">
-                            <i class="fa-solid fa-eye"></i>
-                        </a>
-
-                    </div>
-
-                    <div class="image">
-                        <img src="imagem/images/promo_2.jpg" alt="pizza com coca-cola">
-                    </div>
-
-                    <div class="content">
-                        <h3>Pizza+Refrigerante 350ML</h3>
-
-
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                        </div>
-                        <div class="price">50.00$ <span>a partir</span></div>
-                    </div>
-                </div>
-
-                <!-- caixa 03 -->
-                <div class="box">
-
-                    <!-- div icons -->
-                    <div class="icons">
-                        <a href="#menu">
-                            <i class="fa-solid fa-car"></i>
-                        </a>
-
-                        <a href="#menu">
-                            <i class="fa-solid fa-heart"></i>
-                        </a>
-                        <a href="#menu">
-                            <i class="fa-solid fa-eye"></i>
-                        </a>
-
-                    </div>
-
-                    <div class="image">
-                        <img src="imagem/images/promo_3.jpg" alt="pizza com coca-cola">
-                    </div>
-
-                    <div class="content">
-                        <h3>Pizza+Refrigerante 600ML</h3>
-
-
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="price">55.00$ <span>a partir</span></div>
-
-                    </div>
-
-                </div>
-
-
-        </section>
-
-        <section id="review" class="review">
-            <h2 class=" heading"> O que nosso <span>Cliente dizem</span></h2>
-            <!-- div pai / abraça a div filho -->
-            <div class="box-container">
-                <!-- caixa 01 -->
-                <div class="box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, illo vero! Vitae voluptates
-                        dignissimos cum ipsa. Veniam, nobis molestiae beatae expedita et alias iste eveniet
-                        reprehenderit itaque excepturi sapiente soluta.</p>
-
-                    <img src="imagem/images/cliente_1.jpg" alt="" class="user">
-                    <h3>Arthur Souza</h3>
-
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-
-                </div>
-
-                <!-- caixa 02 -->
-                <div class="box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, illo vero! Vitae voluptates
-                        dignissimos cum ipsa. Veniam, nobis molestiae beatae expedita et alias iste eveniet
-                        reprehenderit itaque excepturi sapiente soluta.</p>
-
-                    <img src="imagem/images/cliente_2.jpg" alt="" class="user">
-                    <h3>Emanuelly Souza</h3>
-
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-
-                </div>
-
-                <!-- caixa 03 -->
-                <div class="box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, illo vero! Vitae voluptates
-                        dignissimos cum ipsa. Veniam, nobis molestiae beatae expedita et alias iste eveniet
-                        reprehenderit itaque excepturi sapiente soluta.</p>
-
-                    <img src="imagem/images/cliente_3.jpg" alt="" class="user">
-                    <h3>Enzo Souza</h3>
-
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
+        
 
     </main>
 
@@ -336,9 +173,9 @@
 
     <footer>
         <div class="container">
-            <!-- conteudo 01 -->
+
             <div class="content-1">
-                <h4 class="title-footer">Pizza <span>Hash</span></h4>
+                <h4 class="title-footer">NOSSAS <span>VIAGENS</span></h4>
                 <ul>
                     <li>
                         <a href="">Sobre Nós</a>
@@ -360,7 +197,7 @@
 
 
             </div>
-            <!-- conteudo 02 -->
+           
             <div class="content-1">
                 <h4 class="title-footer">Obtenha <span>Ajuda</span></h4>
 
@@ -409,7 +246,7 @@
         </div>
 
         <div class="footer-bottom">
-          <p>&copy; 2024 PIZZARIAHASH. Todos Direitos Reservados </p>
+          <p>&copy; 2024 NOSSASVIAGENS. Todos Direitos Reservados </p>
 
         </div>
     </footer>
@@ -426,7 +263,7 @@
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
 
-
+<script src="script.js"></script>
 </body>
 
 </html>

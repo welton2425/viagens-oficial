@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --main-color: #da190f;
-    --bg: #13131a;
-    --br-card: #0c0c14;
+    --main-color: #1b0981;
+    --bg: #3998f1;
+    --br-card: #0243cf;
     --border: 0.1rem solid grey;
 }
 
@@ -92,11 +92,68 @@ header {
     align-items: center;
     position: relative;
     min-height: 85vh;
-    background: url(img/conceito-de-viagem-completo-com-pontos-de-referencia_23-2149153258.avif) no-repeat;
+    background: url() no-repeat;
     background-size: cover;
     background-position: center;
     border-bottom: var(--border);
 }
+
+
+.caixa-01 {
+    background-image: url(img/imagem\ carrocel01.png);
+}
+
+.caixa-02 {
+    background-image: url(img/conceito-de-viagem-completo-com-pontos-de-referencia_23-2149153258.avif);
+}
+
+.caixa-03 {
+    background-image: url(img/viagem-turismo-marketing-digital.jpg);
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+/*estilizando a section*/
+.swiper {
+    height: 37rem; /*altura da sessão*/
+    position: relative;/*posição relativa em relaçao a viewport(tela)*/
+}
+
+.carousel-text {
+    position: absolute;/*posiciona o elemento de forma  absoluta dentro do container pai com position : relative*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/*centraliza o elemento exatamente no meio do container()*/
+    color: #f9ffff;
+    text-align: center;
+    z-index: 10;
+    background-color: #11111144;
+    padding: 1.3rem;
+}
+
+.carousel-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.carousel-text p {
+    font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .content {
@@ -258,9 +315,9 @@ filename=trycss_inline-block_span1*/
 }
 
 .container .box img {
-    height: 18rem;
+    height: 15rem;
     /*definindo a altura da imagem*/
-    border-radius: 100%;
+    border-radius: 10%;
     /*tornando a imagem circular*/
 
 }
@@ -293,12 +350,12 @@ filename=trycss_inline-block_span1*/
 }
 
 .container .box:hover {
-    background: #fff;
+    background: #faf8f8;
 
 }
 
 .container .box:hover>* {
-    color: black;
+    color: rgb(8, 8, 8);
     /*altera a cor dos elementos filhos para preto ao passa*/
 }
 
@@ -391,63 +448,13 @@ filename=trycss_inline-block_span1*/
 
 /**/
 
-.review .box-container {
-    display: grid;
-    /**/
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
-}
-
-.review .box-container .box {
-    border: var(--border);
-    text-align: center;
-    /*centralizando os textos*/
-    padding: 3rem 2rem;
-    /*adicionando espaçamento interno nas caixas */
-}
-
-/*estilizando o paragrafo*/
-.review .box-container .box p {
-    font-size: 1.7rem;
-    /*definindo o tamanho dafonte*/
-    line-height: 1.8;
-    /*espaçamento entre as linhas */
-    color: white;
-    /*cor da letra*/
-    padding: 2rem 0;
-    /*add espaçamento vertical ao paragrafo*/
-}
-
-.review .box-container .box h3 {
-    padding: 1rem 0;
-    /*add espaçamento vertical zerando*/
-    color: #fff;
-    font-size: 2.2rem;
-}
-
-.user {
-    height: 10rem;
-    /*definindo a autura da imagem do usuario*/
-    width: 10rem;
-    /*largura da img*/
-    border-radius: 50%;
-    object-fit: cover;
-    /*ajusta a imagem para preencher o espaço disponivel/container sem distorção*/
-}
-
-.review .box-container .box .stars i {
-    font-size: 1.7rem;
-    color: var(--main-color);
-}
 
 
-/*footer*/
+
 .title-footer {
     text-align: center;
     text-transform: uppercase;
-    /*caixa alta */
     font-size: 2rem;
-    /*20px*/
     color: #fff;
     margin-bottom: 1, 5rem;
 
@@ -463,7 +470,6 @@ footer {
     background: var(--bg);
     text-align: center;
     padding: 4rem 0;
-    /*add espaçamento interno vertical ao rodapé*/
 }
 
 footer .container {
