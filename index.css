@@ -100,15 +100,15 @@ header {
 
 
 .caixa-01 {
-    background-image: url(img/imagem\ carrocel01.png);
+    background-image: url(img/Viagem-pelo-mundo.jpg);
 }
 
 .caixa-02 {
-    background-image: url(img/conceito-de-viagem-completo-com-pontos-de-referencia_23-2149153258.avif);
+    background-image: url(img/airplane-travel-iStock-816320482.jpg);
 }
 
 .caixa-03 {
-    background-image: url(img/viagem-turismo-marketing-digital.jpg);
+    background-image: url(img/ROTA.jpg);
 }
 
 .swiper-slide {
@@ -118,7 +118,7 @@ header {
 
 /*estilizando a section*/
 .swiper {
-    height: 37rem; /*altura da sessão*/
+    height: 50rem; /*altura da sessão*/
     position: relative;/*posição relativa em relaçao a viewport(tela)*/
 }
 
@@ -163,6 +163,16 @@ header {
 }
 .h2 {
     font-size: 5rem;
+}
+
+.btn01 {
+    width: 100%;
+    height: 20px;
+    margin-top: 1rem;
+    border-radius: 15%;
+    background-color: rgba(255, 255, 255, 0.492);
+    font-size: 1.5rem;
+
 }
 
 
@@ -291,6 +301,19 @@ filename=trycss_inline-block_span1*/
     line-height: 1.8rem;
     /*define o espaçamento entre linhas de um texto*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container {
     display: grid;
@@ -568,6 +591,22 @@ footer .container {
     color: aliceblue;
 }
 
+
+.typing {
+    font-size: 28px;
+    border-right: 2px solid #00ff99;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 10rem 7%;
+    background-image: url(img/aviao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
 @media (max-width: 991px) {
     html {
         font-size: 55%;
@@ -580,6 +619,7 @@ footer .container {
     section {
         padding: 2rem;
     }
+    
 }
 
 @media (max-width: 768px) {
