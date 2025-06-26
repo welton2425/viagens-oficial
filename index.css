@@ -602,8 +602,15 @@ footer .container {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: center;
+
 }
 
+.typing span {
+    font-weight: 800;
+    color: rgb(9, 1, 122);
+    font-size: 3.5rem;
+}
 
 
 
@@ -619,6 +626,7 @@ footer .container {
     section {
         padding: 2rem;
     }
+   
     
 }
 

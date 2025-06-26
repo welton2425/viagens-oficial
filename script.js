@@ -1,3 +1,34 @@
+window.revelar = ScrollReveal({resert:true});
+
+revelar.reveal('.logo-js', {
+    //estouchamando a classe a qual eu quero atribuir o efeito do scrollReveal.
+    duration: 2000,
+    distance: '100px',
+    origin: 'left'
+});
+
+revelar.reveal('.menu', {
+    duration: 2000,
+    distance: '100px',
+    origin: 'right'
+});
+
+revelar.reveal('.about', {
+    duration: 2000,
+    distance: '100px',
+    origin: 'left'
+});
+
+
+
+
+revelar.reveal('.rodapé', {
+    duration: 2000,
+    distance: '100px',
+    origin: 'bottom'
+});
+
+
 
 
 
@@ -20,10 +51,10 @@ const swiper = new Swiper('.swiper', { //inicializaando o carrosel na class ".sw
 
 const options = {
     strings: [
-        "Bem vindo ao Obra Social Dom Bosco",
-        "Desenvolvimento Front-end",
-        "Desevolvimento Back-end",
-        "Cadastre-se aqui"
+        "Promoções e",
+        "Preços justos ",
+        "Venha ser feliz e ",
+        "aproveitem nossas ofertas."
     ],
 
     typeSpeed: 60,
@@ -34,4 +65,4 @@ const options = {
 };
 
 
-new Typed("#qualquercoisa", options);
+new Typed(".text", options);
